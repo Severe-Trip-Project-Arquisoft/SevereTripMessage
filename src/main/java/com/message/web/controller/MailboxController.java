@@ -20,6 +20,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @Api(value="Messages", produces = "application/json", description = "Messages sent between users and stored in a MongoDB database.")
 @RequestMapping("/messages")
+@CrossOrigin(origins = "*")
 public class MailboxController {
 
 
